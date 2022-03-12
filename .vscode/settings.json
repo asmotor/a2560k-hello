@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.i": "asm.680x0",
+        "*.68k": "asm.680x0",
+        "*.asm": "asm.680x0"
+    },
+    "[asm.680x0]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false
+    },
+}
