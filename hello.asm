@@ -1,5 +1,7 @@
 		INCLUDE	"mcp.i"
 
+		IMPORT	hello
+
 		SECTION	"Entry",CODE
 Entry::		
 		moveq	#0,d1		; channel
