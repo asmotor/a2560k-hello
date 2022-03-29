@@ -4,7 +4,7 @@ OBJS = $(SRCS_ASM:asm=obj) $(SRCS_C:c=obj)
 LIBS =
 CC_FLAGS = -O2 -g -c --char-is-unsigned
 ASM_FLAGS = -g -mc3 -mgf
-LINK_FLAGS = -sEntry -tfxa2560x 
+LINK_FLAGS = -sEntry -cfxa2560x 
 TARGET = hello.pgz
 
 CLEAN = $(addsuffix .clean,$(dir $(LIBS)))
